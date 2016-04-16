@@ -1,0 +1,1 @@
+function get(e,l,t){for(var n=1;t>=n;n++){var y=document.getElementById(e+n),d=document.getElementById(e+"_"+n);n==l?(d.style.display="block",y.style.display="none"):(d.style.display="none",y.style.display="block")}}

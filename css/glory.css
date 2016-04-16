@@ -1,0 +1,124 @@
+.glory{ padding: 25px 0 30px 20px;}
+.glory li{ float: left; margin: 0 10px; text-align: left; width: 140px; display: inline; background: url("../images/list_bg_03.jpg") no-repeat ; padding: 3px 8px 3px 3px;}
+.glory li span{ display: block; text-align: center; line-height: 24px; padding: 5px 0;}
+
+#lightbox{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    text-align: center;
+    line-height: 0;
+}
+
+#lightbox a img{ border: none; }
+
+#outerImageContainer{
+    position: relative;
+    background-color: #fff;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+#imageContainer{
+    padding: 10px;
+}
+
+#loading{
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    line-height: 0;
+}
+#hoverNav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLink, #nextLink{
+    width: 49%;
+    height: 100%;
+    background: transparent url(../images/blank.gif) no-repeat; /* Trick IE into showing hover */
+    display: block;
+}
+#prevLink { left: 0; float: left;}
+#nextLink { right: 0; float: right;}
+#prevLink:hover, #prevLink:visited:hover { background: url(../images/prevlabel.gif) left 15% no-repeat; }
+#nextLink:hover, #nextLink:visited:hover { background: url(../images/nextlabel.gif) right 15% no-repeat; }
+
+
+#imageDataContainer{
+    font: 10px Verdana, Helvetica, sans-serif;
+    background-color: #fff;
+    margin: 0 auto;
+    line-height: 1.4em;
+}
+
+#imageData{	padding:0 10px; color: #666; }
+#imageData #imageDetails{ width: 70%; float: left; text-align: left; }
+#imageData #caption{ font-weight: bold;	}
+#imageData #numberDisplay{ display: block; clear: left; padding-bottom: 1.0em;	}
+#imageData #bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    filter:alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+.hui11 {font-family: Arial, Helvetica, sans-serif;font-size: 11px;line-height: 22px;font-weight: normal;color: #aaaaaa;text-decoration: none;}
+.hei12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #555555;text-decoration: none; height: 24px; overflow: hidden;}
+A.ahei12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #555555;text-decoration: none;}
+A.ahei12:hover {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #3C6DAA;text-decoration: underline;}
+A.ahei_12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #555555;text-decoration: underline;}
+A.ahei_12:hover {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #3C6DAA;text-decoration: underline;}
+.nan12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #3C6DAA;text-decoration: none;}
+A.anan12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #3C6DAA;text-decoration: none;}
+A.anan12:hover {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #555555;text-decoration: underline;}
+A.anan_12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #3C6DAA;text-decoration: underline;}
+A.anan_12:hover {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #555555;text-decoration: underline;}
+.bai12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #ffffff;text-decoration: none;}
+A.abai_12 {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #ffffff;text-decoration: underline;}
+A.abai_12:hover {font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 22px;font-weight: normal;color: #00EEFF;text-decoration: underline;}
+.bai14 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;line-height: 24px;font-weight: normal;color: #ffffff;text-decoration: none;}
+.hei14 {font-family: Arial, Helvetica, sans-serif;font-size: 14px;line-height: 24px;font-weight: normal;color: #444444;text-decoration: none;}
+.hei18 {font-family: Arial, Helvetica, sans-serif;font-size: 18px;line-height: 28px;font-weight: bold;color: #333333;text-decoration: none;}
+.nan18 {font-family: Arial, Helvetica, sans-serif;font-size: 18px;line-height: 28px;font-weight: bold;color: #3C6DAA;text-decoration: none;}
+.hong12 {font-family: "ï¿½ï¿½ï¿½ï¿½";font-size: 12px;line-height: 22px;font-weight: normal;color: #ee0000;text-decoration: none;}
+A.left180{DISPLAY: inline-block; BACKGROUND-IMAGE: url(images/index_r12_c18.jpg); WIDTH: 178px; HEIGHT: 25px; font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 21px;font-weight: normal; COLOR: #3C6DAA; text-decoration: none; padding-top: 5px;padding-left: 40px;}
+A.left180:hover {DISPLAY: inline-block; BACKGROUND-IMAGE: url(images/index_r12_c17.jpg); WIDTH: 178px; HEIGHT: 25px; font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 21px;font-weight: bold;color: #ffffff;text-decoration: none; padding-top: 5px;padding-left: 40px;}
+A.left160{DISPLAY: inline-block; BACKGROUND-IMAGE: url(images/index_r12_c24.jpg); WIDTH: 168px; HEIGHT: 23px; font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 21px;font-weight: normal; COLOR: #555555; text-decoration: none; padding-top: 5px;padding-left: 50px;}
+A.left160:hover {DISPLAY: inline-block; BACKGROUND-IMAGE: url(images/index_r12_c23.jpg); WIDTH: 168px; HEIGHT: 23px; font-family: Arial, Helvetica, sans-serif;font-size: 12px;line-height: 21px;font-weight: bold;color: #3C6DAA;text-decoration: none; padding-top: 5px;padding-left: 50px;}
+.menuitem {BORDER-BOTTOM: black 0px solid; BORDER-LEFT: black 0px solid; BORDER-RIGHT: black 0px solid; BORDER-TOP: black 0px solid; POSITION: absolute; VISIBILITY: hidden}
