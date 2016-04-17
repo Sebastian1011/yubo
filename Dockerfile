@@ -10,7 +10,7 @@ RUN sudo apt-get update
 
 #install nginx
 
-RUN sudo apt-get install -y nginx
+RUN sudo apt-get -y install nginx
 
 
 
