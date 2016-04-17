@@ -10,7 +10,7 @@ RUN sudo apt-get install -y curl
 
 #install nginx
 
-RUN sudo apt-get install nginx
+RUN sudo apt-get install -Y nginx
 
 
 
