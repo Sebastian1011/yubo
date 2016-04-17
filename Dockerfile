@@ -27,4 +27,4 @@ RUN cp -f /var/yubo/default /etc/nginx/sites-available/default
 
 EXPOSE 80
 
-CMD ["/bin/bash","nginx"]
+CMD ["nginx"]
