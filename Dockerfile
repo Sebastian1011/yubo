@@ -25,4 +25,4 @@ RUN cp -f /var/yubo/default /etc/nginx/sites-available/default
 
 
 
-EXPOSE 80
+EXPOSE 8080
