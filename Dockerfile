@@ -26,3 +26,4 @@ RUN cp -f /var/yubo/default /etc/nginx/sites-available/default
 
 
 EXPOSE 8080
+CMD nginx
