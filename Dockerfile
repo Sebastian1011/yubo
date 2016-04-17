@@ -12,17 +12,16 @@ RUN sudo apt-get install -y curl
 
 RUN sudo apt-get install nginx
 
-#install express
-RUN mkdir -p /nodeWeb
 
-#ADD https://github.com/Sebastian1011/myWeb.git /nodeWeb/myweb
+
+
 WORKDIR /var
 RUN sudo apt-get install -y git
 RUN sudo apt-get install -y git-core
 
 RUN git clone https://github.com/Sebastian1011/yubo.git
 
-RUN cp -f /var/yubo/default /etc/nginx/sites-available
+RUN cp -f /var/yubo/default /etc/nginx/sites-available/default
 
 
 
