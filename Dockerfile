@@ -6,11 +6,11 @@ MAINTAINER Ziming Zhang "zzmbpt@163.com"
 ENV REFRESHED_AT 2016-04-18
 
 RUN sudo apt-get update
-RUN sudo apt-get install -y curl
+
 
 #install nginx
 
-RUN sudo apt-get install -Y nginx
+RUN sudo apt-get install -y nginx
 
 
 
