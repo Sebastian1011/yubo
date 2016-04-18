@@ -26,4 +26,4 @@ RUN cp -f /var/yubo/default /etc/nginx/sites-available/default
 
 
 EXPOSE 80
-ENTRYPOINT /usr/sbin/nginx
+CMD ["nginx", "daemon off"]
